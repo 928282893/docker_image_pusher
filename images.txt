@@ -6,3 +6,11 @@ k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
+# Nacos
+--platform=linux/amd64 nacos/nacos-server:v2.1.1
+
+# 数据库和消息队列
+redis:7.0.10
+rabbitmq:3.12.0-management
+mysql:8.0.30
+minio/minio:latest
