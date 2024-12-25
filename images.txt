@@ -7,7 +7,7 @@ xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
 # Nacos
---platform=linux/amd64 nacos/nacos-server:v2.1.1
+nacos/nacos-server:v2.1.1
 
 # 数据库和消息队列
 redis:7.0.10
